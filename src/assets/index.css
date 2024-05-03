@@ -466,3 +466,7 @@ textarea::-webkit-scrollbar-thumb:hover {
 .host-container figure, .host-container span {
   margin-bottom: 0 !important; /* Remove bottom margin to avoid shifting */
 }
+
+.host-container figure img{
+  border: 2px solid #000 !important;
+}
