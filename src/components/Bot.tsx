@@ -840,11 +840,11 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
             </Show>
             <Show when={props.title}>
               <span class="px-3 whitespace-pre-wrap font-semibold max-w-full">{props.title}</span>
-              <span style="bot_subtitle">
+              <span class="bot_subtitle">
                 <img
                   src="https://whispered.ai/wp-content/uploads/2024/05/book-solid.png"
                   alt="Icon"
-                  style={{ width: '12px', height: '12px', 'margin-right': '5px', 'vertical-align': 'middle' }}
+                  style={{ width: '10px', height: '12px', 'margin-right': '5px', 'vertical-align': 'middle' }}
                 />
                 Ontwikkeling in vogelvlucht
               </span>
