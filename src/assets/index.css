@@ -480,10 +480,6 @@ textarea::-webkit-scrollbar-thumb:hover {
   background-color: #f0f0f0 !important;
 }
 
-.typing_bubble_container {
-  background-color: #000 !important;
-}
-
 .host-container {
   flex-direction: row !important; /* Change layout to horizontal */
   align-items: flex-start !important; /* Align items to the top of the container */
@@ -495,4 +491,10 @@ textarea::-webkit-scrollbar-thumb:hover {
 
 .host-container figure img{
   border: 1px solid #000 !important;
+}
+
+.chatbot-host-bubble > .bubble-typing {
+  background-color: rgb(237, 234, 230) !important;
+  border: var(--chatbot-host-bubble-border);
+  border-radius: 6px;
 }
