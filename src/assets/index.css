@@ -524,4 +524,11 @@ textarea::-webkit-scrollbar-thumb:hover {
 .bot_subtitle{
   font-size: 12px !important;
   font-weight: 400 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    background-color: rgb(50 133 101);
+    padding: 1px 6px;
+    border-radius: 3px;
+    display: inline-flex; 
+    align-items: center;
 }
