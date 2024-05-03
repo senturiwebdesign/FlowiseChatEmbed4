@@ -436,3 +436,32 @@ textarea {
   padding: 10px 10px;
   font-family: 'Poppins', sans-serif;
 }
+
+
+
+
+.scrollable-container::-webkit-scrollbar {
+  display: block !important;
+}
+
+.scrollable-container {
+  -ms-overflow-style: block !important;
+  scrollbar-width: block !important;
+}
+
+.scrollable-container {
+  scrollbar-width: thin !important;
+}
+
+.chatbot-host-bubble > .bubble-typing {
+  background-color: rgb(237, 234, 230) !important;
+}
+
+.host-container {
+  flex-direction: row !important; /* Change flex direction to row */
+  align-items: center !important; /* Center items vertically */
+}
+
+.host-container figure, .host-container span {
+  margin-bottom: 0 !important; /* Remove bottom margin if any */
+}
