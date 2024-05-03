@@ -526,9 +526,9 @@ textarea::-webkit-scrollbar-thumb:hover {
   font-weight: 400 !important;
     font-size: 12px !important;
     font-weight: 400 !important;
-    background-color: rgb(50 133 101);
-    padding: 1px 6px;
-    border-radius: 3px;
-    display: inline-flex; 
-    align-items: center;
+    background-color: rgb(50 133 101) !important;
+    padding: 1px 6px !important;
+    border-radius: 3px !important;
+    display: inline-flex !important; 
+    align-items: center !important;
 }
