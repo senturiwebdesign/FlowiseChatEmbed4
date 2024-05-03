@@ -513,6 +513,6 @@ textarea::-webkit-scrollbar-thumb:hover {
 .bubble1,
 .bubble2,
 .bubble3 {
-  background-color: rgb(237, 234, 230) !important;
+  background-color: rgb(34, 34, 34) !important;
   opacity: 0.5;
 }
