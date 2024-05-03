@@ -37,25 +37,11 @@ export const Badge = (props: Props) => {
   });
 
   return (
-    <span
-      class="w-full text-center px-[10px] pt-[6px] pb-[10px] m-auto text-[13px]"
-      style={{
-        color: props.poweredByTextColor ?? defaultTextColor,
-        'background-color': props.badgeBackgroundColor ?? '#ffffff',
-      }}
-    >
-      Powered by
-      <a
-        ref={liteBadge}
-        href={'https://whispered.ai'}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="lite-badge"
-        id="lite-badge"
-        style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
-      >
-        <span> whispered.ai</span>
-      </a>
-    </span>
+    <div style="display: flex; align-items: center; justify-content: center; background-color: #f4f4f4; padding: 8px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <a href="https://whispered.ai/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; text-decoration: none; font-weight: bold; color: #333;">
+    <img src="https://whispered.ai/wp-content/uploads/2023/06/favicon.png" alt="logo" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"/>
+    <span>whispered.ai</span>
+  </a>
+</div>
   );
 };
