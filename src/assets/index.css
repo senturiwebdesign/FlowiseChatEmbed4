@@ -498,3 +498,21 @@ textarea::-webkit-scrollbar-thumb:hover {
   border: var(--chatbot-host-bubble-border);
   border-radius: 6px;
 }
+
+.chatbot-host-bubble {
+  background-color: rgb(237, 234, 230) !important;
+}
+
+.bubble-typing {
+  transition:
+    width 400ms ease-out,
+    height 400ms ease-out;
+    background-color: rgb(237, 234, 230) !important;
+}
+
+.bubble1,
+.bubble2,
+.bubble3 {
+  background-color: rgb(237, 234, 230) !important;
+  opacity: 0.5;
+}
