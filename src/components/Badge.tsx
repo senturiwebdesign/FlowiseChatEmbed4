@@ -37,11 +37,7 @@ export const Badge = (props: Props) => {
   });
 
   return (
-    <div style="display: flex; align-items: center; justify-content: center; background-color: #f4f4f4; padding: 8px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <a href="https://whispered.ai/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; text-decoration: none; font-weight: bold; color: #333;">
-    <img src="https://whispered.ai/wp-content/uploads/2023/06/favicon.png" alt="logo" style="width: 15px; height: 15px; vertical-align: middle; margin-right: 5px;"/>
-    <span>whispered.ai</span>
-  </a>
-</div>
+    <div style="font-size: 12px; display:flex;align-items:center;justify-content:center;background-color:transparent;padding:8px;border-radius:4px;">Powered by 
+<a href="https://whispered.ai/" target="_blank" rel="noopener noreferrer" style="margin-left:2px; display:flex;align-items:center;text-decoration:none;font-weight:bold;color:#333;"><img src="https://whispered.ai/wp-content/uploads/2023/06/favicon.png" alt="logo" style="width:15px;height:15px;vertical-align:middle; margin-right:2px;"/><span style="letter-spacing: -1px;">whispered.ai</span></a></div>
   );
 };
