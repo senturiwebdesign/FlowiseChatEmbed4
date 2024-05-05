@@ -517,6 +517,10 @@ textarea::-webkit-scrollbar-thumb:hover {
   opacity: 0.5;
 }
 
+.chatbot-guest-bubble .mr-2{
+  margin-right: 0px !important;
+}
+
 .bot_subtitle{
   font-size: 12px !important;
   font-weight: 400 !important;
