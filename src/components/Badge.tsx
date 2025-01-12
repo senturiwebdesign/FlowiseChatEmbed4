@@ -39,38 +39,32 @@ export const Badge = (props: Props) => {
   });
 
   return (
-    <>
-      <Show when={props.footer?.showFooter === undefined || props.footer?.showFooter === null || props.footer?.showFooter === true}>
-        <span
-          class="w-full text-center px-[10px] pt-[6px] pb-[10px] m-auto text-[13px]"
-          style={{
-            color: props.footer?.textColor ?? props.poweredByTextColor ?? defaultTextColor,
-            'background-color': props.badgeBackgroundColor ?? '#ffffff',
-          }}
-        >
-          {props.footer?.text ?? 'Powered by'}
-          <a
-            ref={liteBadge}
-            href={props.footer?.companyLink ?? 'https://stijn.ai'}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="lite-badge"
-            id="lite-badge"
-            style={{ 'font-weight': 'bold', color: props.footer?.textColor ?? props.poweredByTextColor ?? defaultTextColor }}
-          >
-            <span>&nbsp;{props.footer?.company ?? 'stijn.ai'}</span>
-          </a>
-        </span>
-      </Show>
-      <Show when={props.footer?.showFooter === false}>
-        <span
-          class="w-full text-center px-[10px] pt-[6px] pb-[10px] m-auto text-[13px]"
-          style={{
-            color: props.footer?.textColor ?? props.poweredByTextColor ?? defaultTextColor,
-            'background-color': props.badgeBackgroundColor ?? '#ffffff',
-          }}
+    <div
+      style={{
+        'font-size': '12px',
+        display: 'flex',
+        'align-items': 'center',
+        'justify-content': 'center',
+        'background-color': 'transparent',
+        padding: '8px',
+        'border-radius': '4px',
+      }}
+    >
+      Powered by
+      <a
+        href="https://whispered.ai/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ 'margin-left': '2px', display: 'flex', 'align-items': 'center', 'text-decoration': 'none', 'font-weight': 'bold', color: '#333' }}
+      >
+        <img
+          src="https://whispered.ai/wp-content/uploads/2023/06/favicon.png"
+          alt="logo"
+          style={{ width: '15px', height: '15px', 'vertical-align': 'middle', 'margin-right': '2px' }}
         />
-      </Show>
-    </>
+        <span style={{ 'letter-spacing': '-1px' }}>whispered.ai</span>
+      </a>
+    </div>
   );
 };
+
