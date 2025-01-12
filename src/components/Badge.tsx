@@ -52,7 +52,7 @@ export const Badge = (props: Props) => {
     >
       Powered by
       <a
-        href="https://whispered.ai/"
+        href="https://stijn.ai/"
         target="_blank"
         rel="noopener noreferrer"
         style={{ 'margin-left': '2px', display: 'flex', 'align-items': 'center', 'text-decoration': 'none', 'font-weight': 'bold', color: '#333' }}
@@ -62,7 +62,7 @@ export const Badge = (props: Props) => {
           alt="logo"
           style={{ width: '15px', height: '15px', 'vertical-align': 'middle', 'margin-right': '2px' }}
         />
-        <span style={{ 'letter-spacing': '-1px' }}>whispered.ai</span>
+        <span style={{ 'letter-spacing': '-1px' }}>stijn.ai</span>
       </a>
     </div>
   );
